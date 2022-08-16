@@ -1,12 +1,5 @@
-p {
-  background-color: red;
-}
-
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
 .navbar {
+  background-color:darkslategray;
   padding-top: 15px;
   padding-bottom: 15px;
   border: 0;
