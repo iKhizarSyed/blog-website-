@@ -1,5 +1,5 @@
 <%- include('partials/header') -%>
-
+<div class="makecenter">
 <h1 class="mainHeading">WELCOME ♥</h1>
 <p><%= startingcontent %></p>
 
@@ -10,5 +10,5 @@
   <%= post.content.substring(0,100) + "...." %>
   <a href="/posts/<%= post.title %> ">Read more</a>
 </p>
-
+</div>
 <% }); %> <%- include('partials/footer') -%>

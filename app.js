@@ -3,9 +3,9 @@ const bodyparser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 
-const homeStartingContent = "WELCOME TO MY BLOG WEBSITE , HERE YOU WILL FIND SOME AMAZING CONTENT ❤️";
+const homeStartingContent = "WELCOME TO MY BLOG WEBSITE , HERE YOU WILL FIND SOME AMAZING CONTENT IN THE UPCOMING FUTURE AND YOU TOO WILL BE ABLE TO CONTRIBUTE BY WRITING YOUR THOUGHTS IN THE COMPOSE SECTION OF THIS PAGE.. ❤️";
 const aboutContent = "MY NAME IS SYED KHIZAR AND I'M A BEGINNER IN THE WORLD OF DEVELOPERS, LEARNING NEW CODING SKILLS EACH PASSING DAY ❤️";
-const contactContent = "EMAIL ID : Khizarsyed786@gmail.com";
+const contactContent = "Call@8888700021";
 
 const app = express();
 app.use(express.static(__dirname + "/public"));
