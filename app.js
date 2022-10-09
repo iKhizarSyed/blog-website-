@@ -3,6 +3,8 @@ const bodyparser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
+const request = require("request");
+const https = require("https");
 
 const homeStartingContent =
   "WELCOME TO MY BLOG WEBSITE , HERE YOU WILL FIND SOME AMAZING CONTENT IN THE UPCOMING FUTURE AND YOU TOO WILL BE ABLE TO CONTRIBUTE BY WRITING YOUR THOUGHTS IN THE COMPOSE SECTION OF THIS PAGE.. ❤️";
