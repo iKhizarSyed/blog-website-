@@ -1,12 +1,12 @@
 {
   "name": "blog-project",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "khizar syed",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
@@ -15,5 +15,15 @@
     "lodash": "^4.17.21",
     "mongoose": "^6.5.3",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iKhizarSyed/blog-website-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iKhizarSyed/blog-website-/issues"
+  },
+  "homepage": "https://github.com/iKhizarSyed/blog-website-#readme",
+  "description": ""
 }
